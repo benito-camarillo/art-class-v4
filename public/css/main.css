@@ -74,6 +74,12 @@ button {
 }
 
 .play { font-family: "Montserrat"; font-weight: 700; color: var(--text-color); }
+.ai { font-family: "Montserrat"; font-weight: 700; color: var(--text-color); }
+
+#response {
+  margin-left: 25%; 
+  margin-right: 25%; 
+}
 
 button:hover {
     filter: brightness(80%);

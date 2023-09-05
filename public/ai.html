@@ -30,11 +30,12 @@
         </div>
         </nav>
         
-      <h1>Games</h1>
-      <div class="cardgroup" id="gamecards"></div>
-      <button class="secondary" onclick="clearcustomgames()">Clear custom games</button>
-
-
+      <h1>AI</h1>
+        <label>Prompt:</label>
+        <input type="text" id="prompt" name="prompt"><br><br>
+        <button class="button ai" id="ask" onclick="ask()">Ask</button><br><br>
+        <p id="response"></p>
+        <script type="text/javascript" src="./js/ai.js"></script>
     </body>
     
     <script src="./js/index.js"></script>
